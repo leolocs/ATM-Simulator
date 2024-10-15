@@ -1,8 +1,11 @@
 body{
-    /* display: flex; */
-    /* justify-content: center; */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
 
-    background-color: rgb(183, 252, 212);
+    background-color: rgb(221, 252, 234);
+    font-family: "poppins", sans-serif;
 }
 
 header{
@@ -15,16 +18,45 @@ header{
 
     background-color: white;
     border-radius: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-size: 30pt;
 }
 
-.main{
+.cx_eletronico_simulator_title{
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.info_container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
+    /* margin: 20px; */
+    padding: 25px;
+
+    background-color: rgb(244, 253, 248);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vh;
+    
+    border-radius: 30px;
     gap: 20px;
+    box-shadow: 6px 6px 10px rgb(172, 172, 172);
+    
 }
 
 .menu_container{
@@ -70,7 +102,7 @@ ul{
     
 }
 
-.saldo{
+.saldo_txt{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50pt;
 }
@@ -79,4 +111,3 @@ ul{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20pt;
 }
-
